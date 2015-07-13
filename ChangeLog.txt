@@ -1,0 +1,5 @@
+08-07-14: Saving Mobile No in retail bills page
+		  Descending Order display in Manage Bills Page
+		  
+03-09-14: Modifications on Cheque sales report to display based on Clearing date and to display barrel bills also.
+06-10-14: Fixed error on converting numbers to words in Library function no_to_word used in Indent Statement Pages
