@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = 'icandoit4deas';
-$db['default']['database'] = 'crmnoindex';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'tcp:a3hdkskal7.database.windows.net,1433';
+$db['default']['username'] = 'ADMIN-CRM@a3hdkskal7';
+$db['default']['password'] = 'Creative_12';
+$db['default']['database'] = 'CRM_DB2';
+$db['default']['dbdriver'] = 'MSSQL';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
