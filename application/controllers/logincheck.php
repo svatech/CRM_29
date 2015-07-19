@@ -35,13 +35,13 @@ class Logincheck extends CI_Controller
 	function login()
 	{
 		if($this->session->userdata('admin_logged_in')) {
-			redirect("/sales/index");
+			redirect("application/controllers/sales/index");
 		} else {
 			$email = $this->input->post('email');
 			$pwd = $this->input->post('pwd');
 
 			if($this->simpleloginsecure->login($email, $pwd)) {
-				redirect("/sales/index");
+				redirect("application/controllers/sales/index");
 			}
 			else {
 				$err = "Wrong Credentials";
