@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'tcp:a3hdkskal7.database.windows.net,1433';
-$db['default']['username'] = 'ADMIN-CRM@a3hdkskal7';
-$db['default']['password'] = 'Creative_12';
-$db['default']['database'] = 'CRM_DB2';
-$db['default']['dbdriver'] = 'MSSQL';
+$db['default']['hostname'] = 'ap-cdbr-azure-east-c.cloudapp.net';
+$db['default']['username'] = 'bbd679d07e8ecf';
+$db['default']['password'] = '625500ea';
+$db['default']['database'] = 'CRMDB';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
